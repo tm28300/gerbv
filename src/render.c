@@ -579,7 +579,7 @@ render_fill_selection_buffer_from_mouse_drag (gint corner1X, gint corner1Y,
 }
 
 /* ------------------------------------------------------ */
-void render_recreate_composite_surface ()
+void render_recreate_composite_surface (void)
 {
 	gint i;
 	

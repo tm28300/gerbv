@@ -32,7 +32,7 @@
 gerbv_stats_t *generate_gerber_analysis(void);
 gerbv_drill_stats_t *generate_drill_analysis(void);
 
-void render_recreate_composite_surface ();
+void render_recreate_composite_surface (void);
 void render_project_to_cairo_target (cairo_t *cr);
 
 void
